@@ -5,17 +5,8 @@ body {
   background: #3d1700;
 }
 
-/* @keyframes blinking {
-  0%  {background: #6a2c70;}
-  50%  {background: #6a2c70;}
-  55%  {background: #b055ba;}
-  70%  {background: #6a2c70;}
-  75%  {background: #b055ba;}
-  100%  {background: #6a2c70;}
-} */
-
 #masked-page-img {
-  background-image: url("../../imgs/Asset 4.png");
+  background-image: url("../imgs/Asset 4.png");
 
 }
 
@@ -107,7 +98,6 @@ body {
 }
 
 .marquee div:hover,  #marq4 div:hover,  #marq3 div:hover,  #marq2 div:hover{
-  /* animation-play-state: paused; */
   animation-duration: 20s;
   font-weight: 600;
   cursor: pointer;
@@ -161,7 +151,6 @@ body {
   animation-direction: reverse;
   animation: marquee 2.5s linear -2s infinite;
 }
-
 
 
 #section5 #marq2 div {

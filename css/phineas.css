@@ -15,7 +15,7 @@ body {
 } */
 
 #masked-page-img {
-  background-image: url("../../imgs/Asset 3.png");
+  background-image: url("../imgs/Asset 3.png");
 
 }
 
@@ -63,6 +63,3 @@ body {
   transform: matrix(2.5, -0.3, 0, 2.5, 0, 0);
   transition: 4s cubic-bezier(1,-0.45,1,-0.69);
 }
-
-
-/* cubic-bezier(1,-0.94,1,.03) */

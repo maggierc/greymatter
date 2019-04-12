@@ -21,7 +21,7 @@ a:hover {
   width: 100vw;
   top: 0;
   left: 0;
-  background: url("../../imgs/background.gif");
+  background: url("../imgs/background.gif");
   background-position: center;
   background-size: cover;
   opacity: 0.6;
@@ -119,25 +119,25 @@ p {
 }
 
 #phineasImg {
-  background: url('../../imgs/Phineas3.jpg');
+  background: url('../imgs/Phineas3.jpg');
   background-size: cover;
   background-position: center center;
 }
 
 #cliveImg {
-  background: url('../../imgs/clive2.png');
+  background: url('../imgs/clive2.png');
   background-size: cover;
   background-position: center center;
 }
 
 #louisImg {
-  background: url('../../imgs/louis-victor-leborgne.jpg');
+  background: url('../imgs/louis-victor-leborgne.jpg');
   background-size: cover;
   background-position: center center;
 }
 
 #kimImg {
-  background: url('../../imgs/kim_peek.jpg');
+  background: url('../imgs/kim_peek.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -222,34 +222,6 @@ i.fa-angle-down {
   30% {opacity:1;}
   100% {opacity:1;}
 }
- /* .nav {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 300;
-  width: 20%;
-  height: 40px;
-  margin: auto;
-  z-index: 5000;
-  position: absolute;
-  bottom: 5%;
-  text-align: center;
-}
-
- .nav-link {
-  color: #444;
-  opacity: 1;
-  font-size: 1.7rem;
-  transition: 0.5s ease;
-}
-
- .nav-link:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
- .nav-link:active {
-  font-weight: 300;
-  transition: 0s;
-} */
 
 /*  */
 .mobileBanner {
@@ -268,8 +240,6 @@ i.fa-angle-down {
   font-size: 1em;
   font-weight: 400;
 }
-
-/*  */
 
 /*  */
 #section3 p {
