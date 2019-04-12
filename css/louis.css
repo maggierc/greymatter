@@ -1,0 +1,99 @@
+body {
+  color: #fff;
+  cursor: default;
+
+  background: #36094f;
+}
+
+/* @keyframes blinking {
+  0%  {background: #6a2c70;}
+  50%  {background: #6a2c70;}
+  55%  {background: #b055ba;}
+  70%  {background: #6a2c70;}
+  75%  {background: #b055ba;}
+  100%  {background: #6a2c70;}
+} */
+
+#masked-page {
+  background-image: url("../../imgs/Asset 2.png");
+
+}
+
+.playText span {
+  transition: 0.5s;
+}
+
+/* #section1 .passiveTan {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #ffff00;
+  display: none;
+  animation: tanPassive 1s linear infinite;
+  padding: 0;
+  font-size: 1.5rem;
+  margin: none;
+}
+
+@keyframes tanPassive {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+
+.playText span:last-child{
+  animation: tanPassive 1s linear infinite;
+
+}
+
+@keyframes tanPassive {
+  0%  {
+    /* font-weight: 200;
+    font-family: "Noto Serif SC", serif;
+    text-transform: none; */
+    color: #fff;
+
+  }
+  30%  {
+    font-weight: 500;
+    /* font-family: "Roboto", sans-serif;
+    text-transform: uppercase; */
+    color: #ffff00;
+  }
+  40%  {
+    font-weight: 200;
+    /* font-family: "Noto Serif SC", serif;
+    text-transform: none; */
+    color: #fff;
+  }
+  50%  {
+    font-weight: 500;
+    /* font-family: "Roboto", sans-serif;
+    text-transform: uppercase; */
+    color: #ffff00;
+  }
+  80%  {
+    font-weight: 200;
+    /* font-family: "Noto Serif SC", serif;
+    text-transform: none; */
+    color: #fff;
+  }
+  100%  {
+    font-weight: 200;
+    /* font-family: "Noto Serif SC", serif;
+    text-transform: none; */
+    color: #fff;
+  }
+
+}
+
+#scrollDown {
+  display: block;
+}

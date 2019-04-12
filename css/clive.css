@@ -1,0 +1,36 @@
+body {
+  color: #fff;
+  cursor: default;
+
+  background: #0e2844;
+}
+
+#masked-page {
+  background-image: url("../../imgs/Asset 1.png");
+
+}
+
+
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
+}
+
+.playText span {
+  transition: 1s ease-out;
+}
+
+.firstParagraph span:nth-child(5) {
+  animation: clivePassive 1s ease infinite;
+}
+
+@keyframes clivePassive {
+  0%  {filter: blur(0px);}
+  50%  {filter: blur(3px);}
+  100%  {filter: blur(0px);}
+}

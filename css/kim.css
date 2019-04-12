@@ -1,0 +1,181 @@
+body {
+  color: #fff;
+  cursor: default;
+
+  background: #3d1700;
+}
+
+/* @keyframes blinking {
+  0%  {background: #6a2c70;}
+  50%  {background: #6a2c70;}
+  55%  {background: #b055ba;}
+  70%  {background: #6a2c70;}
+  75%  {background: #b055ba;}
+  100%  {background: #6a2c70;}
+} */
+
+#masked-page-img {
+  background-image: url("../../imgs/Asset 4.png");
+
+}
+
+#readplayButton0 {
+  background: none;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
+}
+
+.marquee {
+  height: 5vh;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.5em;
+  letter-spacing: 0.02em;
+  font-weight: 200;
+  margin: auto;
+}
+
+#title #firstMarquee {
+  margin-top: 15%;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 10vh;
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 2s linear infinite;
+  animation-play-state: running;
+}
+
+/* general variations */
+
+#marq2 div {
+  animation: marquee 4s linear -2.5s infinite;
+}
+
+#marq2 div:first-child {
+  animation-direction: reverse;
+}
+
+#marq3 div {
+  animation: marquee 6s linear -1s infinite;
+}
+#marq4 div {
+  animation: marquee 7.5s linear -2s infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+
+#section3 .marquee, #section5 .marquee {
+  height: 3vh;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  font-weight: 200;
+  margin: auto;
+}
+
+#section3 .marquee div, #section5 .marquee div {
+  display: block;
+  width: 200%;
+  height: 5vh;
+  position: absolute;
+  overflow: hidden;
+
+}
+
+.marquee div:hover,  #marq4 div:hover,  #marq3 div:hover,  #marq2 div:hover{
+  /* animation-play-state: paused; */
+  animation-duration: 20s;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#section4 .playText.sectionInfo {
+  transform: matrix(1, -0.2, 0, 1, 0, 0);
+}
+
+
+.marqEffect1 {
+  transform: matrix(1.5, -0.3, 0, 1, 0, 0);
+}
+
+.marqEffect2 {
+  transform: matrix(1, 0.3, -0.3, 2, 0, 0);
+}
+
+#section2 #marq2 div {
+  animation: marquee 1.5s linear -2.5s infinite;
+}
+
+#section2 #marq2 div:first-child {
+  animation-direction: reverse;
+}
+
+#section2 #marq3 div {
+  animation: marquee 1.5s linear -1s infinite;
+}
+#section2 #marq4 div {
+  animation: marquee 2.3s linear -2s infinite;
+}
+
+
+#section3 .playText.sectionInfo {
+  transform: matrix(1, 0.05, 0, 1, 0, 0);
+}
+
+#section3 #marq2 div {
+  animation: marquee 1s linear -2.5s infinite;
+}
+
+#section3 #marq2 div:first-child {
+  animation: marquee 1.5s linear -2.5s infinite;
+}
+
+#section3 #marq3 div {
+  animation: marquee 1.25s linear -1s infinite;
+}
+#section3 #marq4 div {
+  animation-direction: reverse;
+  animation: marquee 2.5s linear -2s infinite;
+}
+
+
+
+#section5 #marq2 div {
+  animation-direction: reverse;
+  animation: marquee 5s linear -2.5s infinite;
+}
+
+#section5 #marq2 div:first-child {
+  animation: marquee 3s linear -2.5s infinite;
+}
+
+#section5 #marq3 div {
+  animation: marquee 10s linear -1s infinite;
+}
+#section5 #marq4 div {
+  animation: marquee 4s linear -2s infinite;
+}

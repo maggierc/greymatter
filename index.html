@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- FullPage CSS -->
+    <link rel="stylesheet" type="text/css" href="src/fullpage.css" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:200,300,400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/gallery.css" type="text/css">
+
+    <!-- Java Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+
+    <title>Grey Matter: Gallery</title>
+  </head>
+  <body>
+
+    <div id="bgmovement"></div>
+
+        <div class="" id="fullpage">
+          <section id="section1" class="section">
+            <div class="container">
+                  <a href="index.html#images">
+                    <div class="titlePosition">
+                      <h1>Grey Matter</h1>
+                      <h5>Revealing the experiences of psychology's most extreme patients.</h5>
+                      <p id="scrollDown">Scroll Down</p>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </a>
+
+            </div>
+          </section>
+          <section id="section2" class="section">
+            <div class="mobileBanner">
+              <h2>Note: The interactions on this website were designed to use hovering. For the best experience, please switch to desktop.</h2>
+            </div>
+            <div class="container">
+              <div class="row d-flex flex-column flex-sm-column flex-md-row" id="gallery">
+                  <div class="col galleryImgs" id="cliveGallery">
+                    <a id="cliveSelect" href="clivewearing.html">
+                      <div class="patient overlay" id="cliveOverlay">  </div>
+                      <div class="patient" id="cliveImg">  </div>
+                    </a>
+                  </div>
+                  <div class="col galleryImgs" id="phineasGallery">
+                      <a id="phineasSelect" href="phineasgage.html">
+                        <div class="patient overlay" id="phineasOverlay">  </div>
+                        <div class="patient" id="phineasImg">  </div>
+                      </a>
+                  </div>
+                  <div class="col galleryImgs" id="louisGallery">
+                    <a id="louisSelect" href="louisleborgne.html">
+                      <div class="patient overlay" id="louisOverlay">  </div>
+                      <div class="patient" id="louisImg">  </div>
+                    </a>
+                  </div>
+                  <div class="col galleryImgs" id="kimGallery">
+                    <a id="kimSelect" href="kimpeek.html">
+                      <div class="patient overlay" id="kimOverlay">  </div>
+                      <div class="patient" id="kimImg">  </div>
+                    </a>
+                  </div>
+              </div>
+              <div class="row" id="selectPatient">
+                <div class="col">
+                  <p><span id="textReplace">Select a patient to see their story</span> <span id="textReplaceType"></span></p>
+                </div>
+              </div>
+              <a href="index.html#about">
+                <i class="fas fa-angle-down"></i>
+              </a>
+            </div>
+
+          </section>
+          <section id="section3" class="section">
+            <div class="titlePosition">
+              <a href="index.html#images">
+                <i class="fas fa-angle-up"></i>
+              </a>
+
+              <h3>About</h3>
+              <p>Grey Matter transforms the experiences of four psychological patients, famous for their unique conditions and groundbreaking research. Each story is told in two ways: the traditional reading space, and the interactive space that lets you dive &#34;into the mind.&#34; Through a double-sided experience, this website aims to incite people’s curiousity about the fields of psychology and neuroscience.</p>
+              <p style="font-style: italic; font-size:1em;">Created by <a href="https://maggiechuang.myportfolio.com/" target="_blank">Maggie Chuang</a> in 2019. Thanks to my friends and peers for the support through this project, and to Coach for the invaluable mentoring!</p>
+            </div>
+
+          </section>
+        </div>
+
+
+
+
+
+
+
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+    <script src="vendors/easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="src/fullpage.js"></script>
+    <script type="text/javascript">
+    	var myFullpage = new fullpage('#fullpage', {
+        anchors: ['main', 'images', 'about'],
+    		// sectionsColor: ['#2c3e50', '#2c3e50', '#2c3e50', '#2c3e50', '#2c3e50'],
+    	});
+    </script>
+
+    <!-- Optional JavaScript -->
+
+
+    <!-- My JavaScript -->
+    <script src="js/gallery.js">  </script>
+  </body>
+</html>

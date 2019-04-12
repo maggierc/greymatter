@@ -1,0 +1,421 @@
+body {
+  background: #eee;
+  font-family: "Noto Serif SC", serif;
+  transition: 0.5s ease;
+  cursor: default;
+  /* display: none; */
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+
+#bgmovement {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: url("../../imgs/background.gif");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  mix-blend-mode: overlay;
+  /* filter: blur(15px); */
+}
+
+.container {
+  height: 100vh;
+  margin: auto;
+}
+
+.container{
+  text-align: center;
+}
+
+.row {
+  margin: auto;
+}
+
+#gallery {
+  height: 70%;
+  padding-top: 10%;
+}
+
+
+.galleryImgs {
+  padding: 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 10em;
+  cursor: default;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 4em;
+  padding: 5% 0;
+}
+
+
+h5 {
+  width: 60%;
+  margin: auto;
+  padding: 3% 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#selectPatient {
+  padding-top: 5%;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+div.titlePosition {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+#scrollDown {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#textReplace {
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+#textReplaceType {
+  font-style: italic;
+}
+
+/* images for gallery */
+
+.patient {
+  height: 100%;
+  width: 100%;
+  transition: 0.25s ease;
+}
+
+#phineasImg {
+  background: url('../../imgs/Phineas3.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#cliveImg {
+  background: url('../../imgs/clive2.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+#louisImg {
+  background: url('../../imgs/louis-victor-leborgne.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#kimImg {
+  background: url('../../imgs/kim_peek.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0.6;
+  transition: 0.5s ease;
+  background-blend-mode: overlay;
+}
+
+
+/*  */
+
+#readplayButton {
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 100px #fff;
+  transition: 0.5s ease-out;
+}
+
+#readplayButton:hover {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 50px #fff;
+}
+
+.playTextPreview {
+  animation: tanPassive 2s linear infinite;
+}
+
+@keyframes tanPassive {
+  0%  {
+    font-weight: 200;
+    color: #000;
+  }
+  20%  {
+    font-weight: 400;
+    color: #ffff00;
+  }
+  40%  {
+    font-weight: 200;
+    color: #000;
+  }
+  60%  {
+    font-weight: 400;
+    color: #ffff00;
+  }
+  80%  {
+    font-weight: 200;
+    color: #000;
+  }
+  100%  {
+    font-weight: 200;
+    color: #000;
+  }
+
+}
+
+/*  */
+i.fas {
+  font-size: 1.5em;
+  animation: oChange 3s ease infinite;
+}
+
+i.fa-angle-down {
+  margin-top: 3%;
+}
+
+@keyframes oChange {
+  0%  {opacity:1;}
+  15%  {opacity:0;}
+  30% {opacity:1;}
+  100% {opacity:1;}
+}
+ /* .nav {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  width: 20%;
+  height: 40px;
+  margin: auto;
+  z-index: 5000;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+}
+
+ .nav-link {
+  color: #444;
+  opacity: 1;
+  font-size: 1.7rem;
+  transition: 0.5s ease;
+}
+
+ .nav-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+ .nav-link:active {
+  font-weight: 300;
+  transition: 0s;
+} */
+
+/*  */
+.mobileBanner {
+  display: none;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background: white;
+  padding: 5%;
+  box-shadow: 0px 5px 15px #999;
+}
+
+.mobileBanner h2 {
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/*  */
+
+/*  */
+#section3 p {
+  text-align: left;
+  font-size: 1.4em;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+#section3 a {
+  text-decoration: underline;
+}
+
+#section3 a:hover {
+  color: #888;
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (max-width: 768px) {
+   .mobileBanner {
+     display: block;
+   }
+
+   div.titlePosition {
+     width: 100%;
+   }
+
+   h1 {
+     font-weight: 400;
+     font-size: 6em;
+
+   }
+
+   h5 {
+     width: 80%;
+     margin: auto;
+     padding: 10% 0;
+     font-size: 1.5em;
+     font-weight: 300;
+   }
+
+   #selectPatient {
+     padding-top: 10%;
+     font-family: "Roboto", Arial, sans-serif;
+     font-weight: 300;
+     font-size: 1.2em;
+   }
+
+   .patient {
+     opacity: 0.25;
+   }
+
+   #gallery {
+     height: 80%;
+     width: 90%;
+     padding-top: 35%;
+   }
+
+   #cliveGallery .overlay:after {
+     content: 'Clive Wearing';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   #phineasGallery .overlay:after {
+     content: 'Phineas Gage';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   #louisGallery .overlay:after {
+     content: 'Louis Leborgne';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   #kimGallery .overlay:after {
+     content: 'Kim Peek';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   .overlay {
+     background-blend-mode: normal;
+     opacity: 1;
+   }
+
+   #cliveGallery .overlay {
+     background: #0e2844;
+   }
+
+   #phineasGallery .overlay {
+     background: #6d0021;
+   }
+
+   #louisGallery .overlay {
+     background: #36094f;
+   }
+
+   #kimGallery .overlay {
+     background: #6d2a00;
+   }
+
+   .patient:active {
+     opacity: 0.5;
+     transition: 0;
+   }
+
+   h3 {
+     font-weight: 500;
+     font-size: 2em;
+     padding: 5% 0;
+   }
+
+   #section3 p {
+     text-align: left;
+     font-size: 1.2em;
+     width: 80%;
+     margin: auto;
+     padding-bottom: 5%;
+   }
+
+  }
